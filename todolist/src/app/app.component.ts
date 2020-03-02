@@ -5,7 +5,7 @@ import { Todo } from './todo';
 
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root',//on retoruve a prout dans le body du html
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   providers: [TodoDataService]

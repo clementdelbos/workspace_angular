@@ -1,0 +1,41 @@
+:root{
+    --left-width  : 30%;
+    --right-width : 70%;
+    --main-heigth : 500px;
+    --couleur:blue;
+}
+h1{
+    text-align: center;
+    color: var(--couleur,blue);
+}
+.main{
+    height: var(--main-heigth,800px);
+}
+.info{
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.left{
+    float: left;
+    background: lightblue;
+    width: var(--left-width, 30%);
+    height: 100%;
+}
+
+.right{
+    float: right;
+    background: lightgray;
+    width: var(--right-width,70%);
+    height: 100%;
+}
+
+.form{
+    border: 1px solid gray;
+}
+
+
+.result{
+
+}
