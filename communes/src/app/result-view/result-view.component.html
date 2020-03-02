@@ -1,1 +1,10 @@
-<p>result-view works!</p>
+<div class="liste">
+    
+    <h2>Liste des communes</h2>
+  <ul>
+    <ol class="nopointlist">
+      <li *ngFor="let commune of communes">{{commune.codePostal}} - {{commune.nom}}</li>
+    </ol>
+  </ul>
+
+</div>

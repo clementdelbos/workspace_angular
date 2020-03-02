@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommunesService } from '../communes.service';
 
+
 @Component({
   selector: 'app-code-postal',
   templateUrl: './code-postal.component.html',

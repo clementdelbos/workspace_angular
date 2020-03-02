@@ -1,5 +1,5 @@
-<div>
+<h2 class="codepo">
 <label>  Code Postal </label>
-<input type="text" size="5" [(ngModel)]="codePostal" > 
-<button (click)=onSubmit()>Submit</button>
-</div>
+<input type="text" size="5" (keyup.enter)=onSubmit() [(ngModel)]="codePostal" > 
+<button (click)=onSubmit() >Submit</button>
+</h2>
